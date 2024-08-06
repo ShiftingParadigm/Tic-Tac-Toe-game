@@ -1,0 +1,84 @@
+*{
+    background-color: #763488;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    color: rgb(255, 255, 0);
+    font-size: 150px;
+    font-weight: 800;
+    line-height: 70px;
+}
+
+.name :first-child{
+    margin-top: 22px;
+}
+
+.container{
+    height: 50vh;
+    /* margin-top: 1vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin ;
+    width: 60vmin;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    cursor: pointer;
+    border:1px solid #553861;
+    border-radius: 15px;
+    background-color: rgba(245, 245, 245, 0.14);
+    border: none;
+    font-size: 8vmin;
+    color: rgba(0, 0, 0, 0.61);
+    font-weight: 600;
+    font-size: 70px;
+
+    
+}
+
+.box:hover{
+    background-color: rgba(245, 245, 245, 0.392);
+}
+
+.box1{
+    background-color: #3ddbe7;
+    color: black;
+    height: 35px;
+    width: 250px;
+    border: none;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.box2:hover{
+    background-color: #d8d5db;
+}
+
+.box2{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 100px;
+    border: none;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
